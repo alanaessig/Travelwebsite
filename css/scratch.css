@@ -1,0 +1,54 @@
+.common{
+    text-align: center;
+    font-family: cursive;
+}
+.header{
+    background-color: #4a805d;
+    color: white;
+    height: 300px;
+    line-height: 300px;
+    font-size: xx-large;
+}
+.mainbody{
+    background-color: whitesmoke;
+
+}
+.footer{
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+img{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+nav a{
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: #ccc;
+
+
+}
+.centered-list{
+    padding-left: 0;
+    list-style-position: outside;
+    margin: 0 auto;
+    display: table;
+    text-align: left;
+}
